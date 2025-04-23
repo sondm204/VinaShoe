@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Button from "../components/Button"
 import ProductCard from "../components/ProductCard"
-import { getFeaturedProducts, getNewArrivals } from "../data/products"
+import { getFeaturedProducts } from "../data/products"
 import { useState, useEffect } from "react"
 
 const images = [
