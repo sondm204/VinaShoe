@@ -4,28 +4,28 @@ import { Link } from "react-router-dom"
 const blogPosts = [
     {
         id: 1,
-        title: "Elevate your style with our luxurious handbags",
-        slug: "elevate-your-style-with-our-luxurious-handbags",
+        title: "GIÀY THƯỢNG PHONG - BIỂU TƯỢNG BỀN BỈ VÀ TỰ HÀO VIỆT",
+        slug: "giay-thuong-phong-bieu-tuong-ben-bi-va-tu-hao-viet",
         excerpt: "Discover how our premium handbags can transform your everyday outfits into fashion statements.",
-        date: "March 1, 2023",
+        date: "25/04/2025",
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://lh3.googleusercontent.com/iHuOUWDxwwchgBNE5f1zxjuIsTtn-83MqgwUTEWvK46IIBAj0RcBBJXomI6ekOPRDj-bdMBZ9B0NqnTMtydz5OrC4GtD9qSYf4U0gaq1uAnUWsPAZO83nKkAICCDXzWJug=w1280",
         author: "Bagberry Team",
     },
     {
         id: 2,
-        title: "Upgrade your handbag collection with our designer styles",
-        slug: "upgrade-your-handbag-collection-with-our-designer-styles",
+        title: "Dẫn đầu Xu Hướng Thời Trang 2025 Cùng Giày Thượng Phong",
+        slug: "dan-dau-xu-huong-thoi-trang-2025-cung-giay-thuong-phong",
         excerpt: "Explore our latest designer handbag collection and find the perfect addition to your wardrobe.",
         date: "March 1, 2023",
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://lh4.googleusercontent.com/M8T7L9wUY6Y53nCS6p1K3R2--WtjJ93QpXGosmxOGBf2ybTig_PHD2jmnU0eehAjxXorSspAYZPEIDQ5zsieXX10lnXnvN97KlvxQ_MQAXfK8oxxcAPuRdPUk_10OVJEZQ=w1280",
         author: "Bagberry Team",
     },
     {
         id: 3,
-        title: "Functional and fashionable: our handbags are a must-have",
-        slug: "functional-and-fashionable-our-handbags-are-a-must-have",
+        title: "\"Bước chân Thượng Phong\" - Sáng tạo phong cách của bạn ",
+        slug: "buoc-chan-thuong-phong-sang-tao-phong-cach-cua-ban",
         excerpt: "Learn why our handbags combine style with practicality to become essential accessories for modern life.",
         date: "March 1, 2023",
         image:
@@ -34,8 +34,8 @@ const blogPosts = [
     },
     {
         id: 4,
-        title: "Find your new favorite handbag in our wide selection",
-        slug: "find-your-new-favorite-handbag-in-our-wide-selection",
+        title: "Chia Sẻ Trải Nghiệm Giày Thượng Phong: Cùng Lan Tỏa Phong Cách",
+        slug: "chia-se-trai-nghiem-giay-thuong-phong-cung-lan-toa-phong-cach",
         excerpt: "With so many styles, colors, and designs to choose from, your perfect handbag is waiting for you.",
         date: "March 1, 2023",
         image:
@@ -44,8 +44,8 @@ const blogPosts = [
     },
     {
         id: 5,
-        title: "Invest in a timeless handbag that will stand the test of time",
-        slug: "invest-in-a-timeless-handbag-that-will-stand-the-test-of-time",
+        title: "Mẫu giày Thượng Phong mới nhất - Đặt ngay hôm nay",
+        slug: "mau-giay-thuong-phong-moi-nhat-dat-ngay-hom-nay",
         excerpt: "Discover why investing in a quality handbag is not just a purchase, but a long-term investment.",
         date: "March 1, 2023",
         image:
@@ -54,8 +54,8 @@ const blogPosts = [
     },
     {
         id: 6,
-        title: "Make a statement with our eye-catching handbags",
-        slug: "make-a-statement-with-our-eye-catching-handbags",
+        title: "Bí Quyết Phối Đồ Độc Đáo Với Giày Thượng Phong ",
+        slug: "bi-quyet-phoi-do-doc-dao-voi-giay-thuong-phong",
         excerpt: "Bold colors, unique designs, and premium materials make our handbags stand out from the crowd.",
         date: "March 1, 2023",
         image:
