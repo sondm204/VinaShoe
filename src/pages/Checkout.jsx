@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { useCart } from "../context/CartContext"
 import Button from "../components/Button"
+import { Link } from "react-router-dom"
 
 const Checkout = () => {
   const { cartItems, getCartTotal, clearCart } = useCart()
@@ -397,9 +398,9 @@ const Checkout = () => {
                     />
                     <label htmlFor="terms" className={`text-gray-700 ${errors.terms ? "text-red-500" : ""}`}>
                       Tôi đã đọc và đồng ý với các {" "}
-                      <a href="#" className="text-blue-500 hover:underline">
+                      <Link to="#" className="text-blue-500 hover:underline">
                         điều khoản và điều kiện
-                      </a>{" "}
+                      </Link>{" "}
                       của trang web *
                     </label>
                   </div>

@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { products } from "../data/products"
 import ProductCard from "../components/ProductCard"
-import Button from "../components/Button"
 import { Link } from "react-router-dom"
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 

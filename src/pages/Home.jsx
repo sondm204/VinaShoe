@@ -14,7 +14,6 @@ const images = [
 
 const Home = () => {
   const featuredProducts = getFeaturedProducts()
-  const newArrivals = getNewArrivals()
 
   const [current, setCurrent] = useState(0);
 
@@ -104,25 +103,25 @@ const Home = () => {
       <section className="py-16 px-6 md:px-16 bg-white border border-t-gray-200">
         <div className="container mx-auto px-4 grid grid-cols-2">
           <div className="col-span-1 w-full overflow-hidden rounded-l-lg">
-            <img src="/image/tamnhin.jfif" alt="" />
+            <img src="/image/tamnhin.jpg" alt="" />
           </div>
-          <div className="col-span-1 text-center m-10">
+          <div className="col-span-1 text-center m-10 flex flex-col justify-center">
             <h2 className="text-7xl font-bold pb-3">Tầm nhìn</h2>
-            <p className="text-xl">"Trở thành thương hiệu giày Việt Nam được yêu thích và tin dùng, vươn ra thế giới với sản phẩm chất lượng cao, đậm đà bản sắc văn hóa Việt."</p>
+            <p className="text-xl">"Trở thành thương hiệu giày Việt Nam hàng đầu, nổi bật với sản phẩm chất lượng cao và thiết kế tinh tế, vươn ra thế giới và khẳng định vị thế của giày Việt trên thị trường quốc tế. Chúng tôi không chỉ tạo ra những đôi giày, mà còn xây dựng một phong cách sống, một trải nghiệm đi đôi với sự tự hào về nguồn gốc Việt Nam, hòa quyện giữa truyền thống và hiện đại."</p>
           </div>
 
-          <div className="col-span-1 text-center m-10">
+          <div className="col-span-1 text-center m-10 flex flex-col justify-center">
             <h2 className="text-7xl font-bold pb-3">Sứ mệnh</h2>
-            <p className="text-xl">"Cung cấp sản phẩm giày dép chất lượng, thiết kế thời trang, phù hợp với nhu cầu của mọi khách hàng, đồng thời cam kết phát triển bền vững và bảo vệ môi trường."</p>
+            <p className="text-xl">"Cung cấp cho khách hàng những đôi giày không chỉ đẹp, chất lượng mà còn thể hiện cá tính và phong cách riêng của họ. Chúng tôi cam kết tạo ra những sản phẩm bền bỉ, thoải mái và phù hợp với nhu cầu đa dạng của từng khách hàng, đồng thời nâng cao nhận thức về bảo vệ môi trường và phát triển bền vững trong mỗi công đoạn sản xuất."</p>
           </div>
           <div className="col-span-1 w-full overflow-hidden rounded-r-lg">
-            <img src="/image/sumenh.jfif" alt="" />
+            <img src="/image/sumenh.jpg" alt="" />
           </div>
 
           <div className="col-span-1 w-full overflow-hidden rounded-l-lg">
             <img src="/image/giatri.jfif" alt="" />
           </div>
-          <div className="col-span-1 text-center mt-10">
+          <div className="col-span-1 text-center mt-10 flex flex-col justify-center">
             <h2 className="text-7xl font-bold pb-3">Giá trị cốt lõi</h2>
             <ul className="text-xl">
               <li>Chất lượng: Cam kết sản phẩm bền, đẹp và an toàn.</li>
