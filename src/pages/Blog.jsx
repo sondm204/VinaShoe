@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const blogPosts = [
     {
         id: 1,
-        title: "GIÀY THƯỢNG PHONG - BIỂU TƯỢNG BỀN BỈ VÀ TỰ HÀO VIỆT",
+        title: "Giày Thượng Phong - Biểu tượng bền bỉ và tự hào Việt",
         slug: "giay-thuong-phong-bieu-tuong-ben-bi-va-tu-hao-viet",
         excerpt: "Discover how our premium handbags can transform your everyday outfits into fashion statements.",
         date: "25/04/2025",
@@ -24,7 +24,7 @@ const blogPosts = [
     },
     {
         id: 3,
-        title: "\"Bước chân Thượng Phong\" - Sáng tạo phong cách của bạn ",
+        title: "\"Bước chân Thượng Phong\" - Sáng tạo phong cách của bạn",
         slug: "buoc-chan-thuong-phong-sang-tao-phong-cach-cua-ban",
         excerpt: "Learn why our handbags combine style with practicality to become essential accessories for modern life.",
         date: "March 1, 2023",
@@ -44,19 +44,9 @@ const blogPosts = [
     },
     {
         id: 5,
-        title: "Mẫu giày Thượng Phong mới nhất - Đặt ngay hôm nay",
-        slug: "mau-giay-thuong-phong-moi-nhat-dat-ngay-hom-nay",
+        title: "Giày Thượng Phong: Lựa Chọn Hoàn Hảo Cho Phong Cách ",
+        slug: "giay-thuong-phong-lua-chon-hoan-hao-cho-phong-cach",
         excerpt: "Discover why investing in a quality handbag is not just a purchase, but a long-term investment.",
-        date: "March 1, 2023",
-        image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
-        author: "Bagberry Team",
-    },
-    {
-        id: 6,
-        title: "Bí Quyết Phối Đồ Độc Đáo Với Giày Thượng Phong ",
-        slug: "bi-quyet-phoi-do-doc-dao-voi-giay-thuong-phong",
-        excerpt: "Bold colors, unique designs, and premium materials make our handbags stand out from the crowd.",
         date: "March 1, 2023",
         image:
             "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
