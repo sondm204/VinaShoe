@@ -76,7 +76,7 @@ const Home = () => {
               Designed for the way you live your life. Bagberry are beautiful in their simplicity.
             </p>
             <Button to="/shop" size="lg" type="primary">
-              Go to shop
+              Đến cửa hàng
             </Button>
           </div>
         </div>
@@ -101,39 +101,43 @@ const Home = () => {
       </section>
 
       <section className="py-16 px-6 md:px-16 bg-white border border-t-gray-200">
-        <div className="container mx-auto px-4 grid grid-cols-2">
-          <div className="col-span-1 w-full overflow-hidden rounded-l-lg">
-            <img src="/image/tamnhin.jpg" alt="" />
-          </div>
-          <div className="col-span-1 text-center m-10 flex flex-col justify-center">
-            <h2 className="text-7xl font-bold pb-3">Tầm nhìn</h2>
-            <p className="text-xl">"Trở thành thương hiệu giày Việt Nam hàng đầu, nổi bật với sản phẩm chất lượng cao và thiết kế tinh tế, vươn ra thế giới và khẳng định vị thế của giày Việt trên thị trường quốc tế. Chúng tôi không chỉ tạo ra những đôi giày, mà còn xây dựng một phong cách sống, một trải nghiệm đi đôi với sự tự hào về nguồn gốc Việt Nam, hòa quyện giữa truyền thống và hiện đại."</p>
-          </div>
+  <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+    {/* Tầm nhìn */}
+    <div className="w-full overflow-hidden rounded-lg order-1 md:order-1">
+      <img src="/image/tamnhin.jpg" alt="Tầm nhìn" className="w-full h-auto" />
+    </div>
+    <div className="text-center md:text-left flex flex-col justify-center order-2 md:order-2">
+      <h2 className="text-4xl md:text-7xl font-bold pb-3">Tầm nhìn</h2>
+      <p className="text-lg md:text-xl">"Trở thành thương hiệu giày Việt Nam hàng đầu, nổi bật với sản phẩm chất lượng cao và thiết kế tinh tế, vươn ra thế giới và khẳng định vị thế của giày Việt trên thị trường quốc tế. Chúng tôi không chỉ tạo ra những đôi giày, mà còn xây dựng một phong cách sống, một trải nghiệm đi đôi với sự tự hào về nguồn gốc Việt Nam, hòa quyện giữa truyền thống và hiện đại."</p>
+    </div>
 
-          <div className="col-span-1 text-center m-10 flex flex-col justify-center">
-            <h2 className="text-7xl font-bold pb-3">Sứ mệnh</h2>
-            <p className="text-xl">"Cung cấp cho khách hàng những đôi giày không chỉ đẹp, chất lượng mà còn thể hiện cá tính và phong cách riêng của họ. Chúng tôi cam kết tạo ra những sản phẩm bền bỉ, thoải mái và phù hợp với nhu cầu đa dạng của từng khách hàng, đồng thời nâng cao nhận thức về bảo vệ môi trường và phát triển bền vững trong mỗi công đoạn sản xuất."</p>
-          </div>
-          <div className="col-span-1 w-full overflow-hidden rounded-r-lg">
-            <img src="/image/sumenh.jpg" alt="" />
-          </div>
+    {/* Sứ mệnh */}
+    <div className="w-full overflow-hidden rounded-lg order-3 md:order-4">
+      <img src="/image/sumenh.jpg" alt="Sứ mệnh" className="w-full h-auto" />
+    </div>
+    <div className="text-center md:text-left flex flex-col justify-center order-4 md:order-3">
+      <h2 className="text-4xl md:text-7xl font-bold pb-3">Sứ mệnh</h2>
+      <p className="text-lg md:text-xl">"Cung cấp cho khách hàng những đôi giày không chỉ đẹp, chất lượng mà còn thể hiện cá tính và phong cách riêng của họ. Chúng tôi cam kết tạo ra những sản phẩm bền bỉ, thoải mái và phù hợp với nhu cầu đa dạng của từng khách hàng, đồng thời nâng cao nhận thức về bảo vệ môi trường và phát triển bền vững trong mỗi công đoạn sản xuất."</p>
+    </div>
 
-          <div className="col-span-1 w-full overflow-hidden rounded-l-lg">
-            <img src="/image/giatri.jfif" alt="" />
-          </div>
-          <div className="col-span-1 text-center mt-10 flex flex-col justify-center">
-            <h2 className="text-7xl font-bold pb-3">Giá trị cốt lõi</h2>
-            <ul className="text-xl">
-              <li>Chất lượng: Cam kết sản phẩm bền, đẹp và an toàn.</li>
-              <li>Sáng tạo: Luôn đổi mới trong thiết kế.</li>
-              <li>Trách nhiệm: Bảo vệ môi trường và cộng đồng.</li>
-              <li>Khách hàng: Luôn lắng nghe và phục vụ tận tâm.</li>
-              <li>Tự hào: Đưa bản sắc Việt vươn xa.</li>
-            </ul>
-          </div>
+    {/* Giá trị cốt lõi */}
+    <div className="w-full overflow-hidden rounded-lg order-5 md:order-5">
+      <img src="/image/giatri.jfif" alt="Giá trị cốt lõi" className="w-full h-auto" />
+    </div>
+    <div className="text-center md:text-left flex flex-col justify-center order-6 md:order-6 mt-10">
+      <h2 className="text-4xl md:text-7xl font-bold pb-3">Giá trị cốt lõi</h2>
+      <ul className="text-lg md:text-xl">
+        <li>Chất lượng: Cam kết sản phẩm bền, đẹp và an toàn.</li>
+        <li>Sáng tạo: Luôn đổi mới trong thiết kế.</li>
+        <li>Trách nhiệm: Bảo vệ môi trường và cộng đồng.</li>
+        <li>Khách hàng: Luôn lắng nghe và phục vụ tận tâm.</li>
+        <li>Tự hào: Đưa bản sắc Việt vươn xa.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-        </div>
-      </section>
+
 
       {/* Collections */}
       {/* <section className="py-16 px-6 md:px-16 bg-white border border-t-gray-200">

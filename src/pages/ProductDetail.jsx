@@ -53,7 +53,7 @@ const ProductDetail = () => {
                   <img
                     src={product.images[selectedImage] || "/placeholder.svg"}
                     alt={product.name}
-                    className="object-cover w-full h-full"
+                    className="object-contain w-full h-full"
                   />
                 </div>
 
@@ -67,7 +67,7 @@ const ProductDetail = () => {
                       <img
                         src={image || "/placeholder.svg"}
                         alt={`${product.name} view ${index + 1}`}
-                        className="object-cover w-full h-full"
+                        className="object-contain w-full h-full"
                       />
                     </div>
                   ))}

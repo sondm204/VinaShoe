@@ -23,7 +23,7 @@ const Lookbook = () => {
                 <img
                   src="https://lebrouges.in/cdn/shop/files/Onitsuka-Tiger-Mexico-66-Party-White-Blue-2700-3.webp?v=1717070581"
                   alt="Party specialist"
-                  className="w-full h-96 object-cover rounded-lg"
+                  className="w-full h-96 object-contain rounded-lg"
                 />
               </div>
               <div>
@@ -36,9 +36,9 @@ const Lookbook = () => {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="mb-6">
                 <img
-                  src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lugasphiy13m9e"
+                  src="https://images.asics.com/is/image/asics/1183B510_100_SR_RT_GLB?$product$"
                   alt="Editor's pick"
-                  className="w-full h-96 object-cover rounded-lg"
+                  className="w-full h-96 object-contain rounded-lg"
                 />
               </div>
               <div>
@@ -55,12 +55,12 @@ const Lookbook = () => {
                 <img
                   src="https://images.asics.com/is/image/asics/1184A083_100_SR_RT_GLB-1?$product$"
                   alt="Clutch detail"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-48 object-contain rounded-lg"
                 />
                 <img
                   src="https://images.asics.com/is/image/asics/1184A083_601_SR_RT_GLB?$product$"
                   alt="Backpack"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-48 object-contain rounded-lg"
                 />
               </div>
               <div>
@@ -75,7 +75,7 @@ const Lookbook = () => {
                 <img
                   src="https://i.ebayimg.com/images/g/E~YAAOSwOR1mL48d/s-l1200.jpg"
                   alt="Outdoor bags"
-                  className="w-full h-96 object-cover rounded-lg mt-4"
+                  className="w-full h-96 object-contain rounded-lg mt-4"
                 />
               </div>
             </div>
@@ -97,9 +97,9 @@ const Lookbook = () => {
             <div className="bg-white rounded-lg overflow-hidden group">
               <div className="overflow-hidden">
                 <img
-                  src="https://tyhisneaker.com/wp-content/uploads/2024/08/giay-onitsuka-tiger-mexico-66-black-white-like-auth-5.png"
+                  src="https://m.media-amazon.com/images/I/61nwPkb1MNL._AC_UL1500_.jpg"
                   alt="Side bags"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                  className="w-full h-64 object-contain group-hover:scale-105 transition duration-500"
                 />
               </div>
               <div className="p-4 text-gray-900">
@@ -111,9 +111,9 @@ const Lookbook = () => {
             <div className="bg-white rounded-lg overflow-hidden group">
               <div className="overflow-hidden">
                 <img
-                  src="https://bizweb.dktcdn.net/100/410/787/products/300-jpeg.jpg?v=1741836677527"
+                  src="https://authentic-shoes.com/wp-content/uploads/2024/03/Giay-Onitsuka-Tiger-Runspark-Sport-White-Silver-1183B480-101-5.png"
                   alt="Cross-body bags"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                  className="w-full h-64 object-contain group-hover:scale-105 transition duration-500"
                 />
               </div>
               <div className="p-4 text-gray-900">
@@ -125,9 +125,9 @@ const Lookbook = () => {
             <div className="bg-white rounded-lg overflow-hidden group">
               <div className="overflow-hidden">
                 <img
-                  src="https://giaygiare.vn/upload/images/onitsuka-tiger-mexico-66-bronze-green.jpg"
+                  src="https://images.asics.com/is/image/asics/1183B603_020_SR_RT_GLB?$product$"
                   alt="Pouches & Clutches"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                  className="w-full h-64 object-contain group-hover:scale-105 transition duration-500"
                 />
               </div>
               <div className="p-4 text-gray-900">

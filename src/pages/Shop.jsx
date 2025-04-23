@@ -42,23 +42,24 @@ const Shop = () => {
       {/* Hero Banner */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="bg-[#ebece3] px-20 shadow-sm relative overflow-hidden">
+          <div className="bg-[#ebece3] px-6 md:px-20 shadow-sm relative overflow-hidden">
             <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col items-center">
-                <h1 className="text-6xl font-light mb-4">Xây dựng phong cách sống của bạn.</h1>
+              <div className="md:w-1/2 md:mb-8 md:mb-0 flex flex-col items-center text-center md:text-left">
+                <h1 className="text-4xl md:text-6xl font-light mb-4 mt-4 md:mt-0">Xây dựng phong cách sống của bạn.</h1>
                 <p className="text-gray-600 mb-6 text-lg">Khám phá bộ sưu tập giày đa dạng của chúng tôi</p>
               </div>
-              <div className="md:w-2/3">
+              <div className="md:w-2/3 flex justify-center">
                 <img
-                  src="/image/giay.png"
+                  src="/image/giay2.png"
                   alt="Featured bag"
-                  className="w-full h-auto rounded-lg"
+                  className="w-2/3 h-auto rounded-lg"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Products Section */}
       <section id="products" className="py-12">
