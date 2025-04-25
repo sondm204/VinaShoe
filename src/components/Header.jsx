@@ -33,7 +33,7 @@ const Header = () => {
         <Link to="/" className="text-xl font-serif">
           <div className="flex items-end font-sans font-semibold leading-[0.8]">
             <img
-              src="/logo2.png"
+              src={`${location.pathname === '/' ? '/logo-white.png' : '/logo-black.png'}`}
               alt="thuongphong Logo"
               className="h-10"
             />
