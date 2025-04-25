@@ -25,13 +25,22 @@ const Header = () => {
   return (
     <header
       className={`${location.pathname === '/'
-          ? 'bg-black/15 -mb-[74px] text-white'
-          : 'bg-white'
+        ? 'bg-black/15 -mb-[74px] text-white'
+        : 'bg-white'
         } relative bg-transparent top-0 left-0 w-full z-50 py-4 px-6 border-b border-gray-200`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-xl font-serif">
-          Giayvina.
+          <div className="flex items-end font-sans font-semibold leading-[0.8]">
+            <img
+              src="/logo2.png"
+              alt="thuongphong Logo"
+              className="h-10"
+            />
+            Thượng Phong
+          </div>
+
+          {/* Giayvina. */}
         </Link>
 
         {/* Menu */}
@@ -87,8 +96,8 @@ const Header = () => {
                 type="text"
                 placeholder="Tìm sản phẩm..."
                 className={`${location.pathname === '/'
-                    ? 'bg-transparent placeholder:text-white'
-                    : 'bg-gray-100'
+                  ? 'bg-transparent placeholder:text-white'
+                  : 'bg-gray-100'
                   } rounded-full py-2 px-4 w-64 focus:outline-none border border-white text-white placeholder:text-xs`}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}

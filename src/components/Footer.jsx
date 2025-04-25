@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mb-12">
           <div className="col-span-1">
             <div className="border-b border-b-gray-300">
-              <h3 className="text-xl font-medium mb-4 font-serif">Giayvina.</h3>
+              <h3 className="text-xl mb-4 font-serif font-semibold">Thượng Phong</h3>
               <p className="text-gray-600 mb-4">
                 Bộ sưu tập túi xách vượt thời gian của chúng tôi có thể sử dụng hàng ngày và thỉnh thoảng với giá cả phải chăng.
               </p>
