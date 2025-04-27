@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    name: "VINA OLD SKOOL CLASSIC NAVY/WHITE",
+    name: "VINA STREET CLASSIC NAVY/WHITE",
     price: 299000,
     originalPrice: 350000,
     image:
@@ -25,7 +25,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "VINA CLASSIC SK8-HI BLACK/WHITE",
+    name: "VINA STREET SK8-HI",
     price: 299000,
     originalPrice: 350000,
     image:
@@ -48,7 +48,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Triple Compartment Cross-body Bag",
+    name: "VINA STREET SPORTS",
     price: 299000,
     originalPrice: 350000,
     image:
@@ -70,7 +70,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Vina Paraty",
+    name: "VINA STREET PARATY",
     price: 279000,
     originalPrice: 320000,
     image:

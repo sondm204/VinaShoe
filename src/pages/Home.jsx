@@ -5,11 +5,11 @@ import { getFeaturedProducts } from "../data/products"
 import { useState, useEffect } from "react"
 
 const images = [
-  "https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Adidas-Superstar-82-White-Vivid-Red-GY8457-9.jpg",
-  "https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Adidas-Superstar-82-White-Vivid-Red-GY8457-7.jpg",
-  "https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Adidas-Superstar-82-White-Vivid-Red-GY8457-6.jpg",
-  "https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Adidas-Superstar-82-White-Vivid-Red-GY8457-5.jpg",
-  "https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Adidas-Superstar-82-White-Vivid-Red-GY8457-4.jpg",
+  "image/slide1.jfif",
+  "image/slide2.jfif",
+  "image/slide3.jfif",
+  "image/slide4.jfif",
+  "image/slide5.jfif",
 ];
 
 const Home = () => {
