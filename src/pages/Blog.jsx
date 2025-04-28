@@ -9,8 +9,8 @@ const blogPosts = [
         excerpt: "Discover how our premium handbags can transform your everyday outfits into fashion statements.",
         date: "25/04/2025",
         image:
-            "https://lh3.googleusercontent.com/iHuOUWDxwwchgBNE5f1zxjuIsTtn-83MqgwUTEWvK46IIBAj0RcBBJXomI6ekOPRDj-bdMBZ9B0NqnTMtydz5OrC4GtD9qSYf4U0gaq1uAnUWsPAZO83nKkAICCDXzWJug=w1280",
-        author: "Bagberry Team",
+            "image/slide1.jfif",
+        author: "ThuongPhong Team",
     },
     {
         id: 2,
@@ -19,8 +19,8 @@ const blogPosts = [
         excerpt: "Explore our latest designer handbag collection and find the perfect addition to your wardrobe.",
         date: "March 1, 2023",
         image:
-            "https://lh4.googleusercontent.com/M8T7L9wUY6Y53nCS6p1K3R2--WtjJ93QpXGosmxOGBf2ybTig_PHD2jmnU0eehAjxXorSspAYZPEIDQ5zsieXX10lnXnvN97KlvxQ_MQAXfK8oxxcAPuRdPUk_10OVJEZQ=w1280",
-        author: "Bagberry Team",
+            "image/slide2.jfif",
+        author: "ThuongPhong Team",
     },
     {
         id: 3,
@@ -29,28 +29,28 @@ const blogPosts = [
         excerpt: "Learn why our handbags combine style with practicality to become essential accessories for modern life.",
         date: "March 1, 2023",
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
-        author: "Bagberry Team",
+            "image/slide3.jfif",
+        author: "ThuongPhong Team",
     },
     {
         id: 4,
-        title: "Chia Sẻ Trải Nghiệm Giày Thượng Phong: Cùng Lan Tỏa Phong Cách",
-        slug: "chia-se-trai-nghiem-giay-thuong-phong-cung-lan-toa-phong-cach",
-        excerpt: "With so many styles, colors, and designs to choose from, your perfect handbag is waiting for you.",
-        date: "March 1, 2023",
-        image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
-        author: "Bagberry Team",
-    },
-    {
-        id: 5,
         title: "Giày Thượng Phong: Lựa Chọn Hoàn Hảo Cho Phong Cách ",
         slug: "giay-thuong-phong-lua-chon-hoan-hao-cho-phong-cach",
         excerpt: "Discover why investing in a quality handbag is not just a purchase, but a long-term investment.",
         date: "March 1, 2023",
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
-        author: "Bagberry Team",
+            "image/slide5.jfif",
+        author: "ThuongPhong Team",
+    },
+    {
+        id: 5,
+        title: "Chia Sẻ Trải Nghiệm Giày Thượng Phong: Cùng Lan Tỏa Phong Cách",
+        slug: "chia-se-trai-nghiem-giay-thuong-phong-cung-lan-toa-phong-cach",
+        excerpt: "With so many styles, colors, and designs to choose from, your perfect handbag is waiting for you.",
+        date: "March 1, 2023",
+        image:
+            "image/slide4.jfif",
+        author: "ThuongPhong Team",
     },
 ]
 

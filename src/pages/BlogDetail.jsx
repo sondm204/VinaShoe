@@ -27,7 +27,7 @@ const blogPosts = [
         <p>Giày Thượng Phong sẽ không ngừng nghiên cứu và phát triển những mẫu mã mới, đáp ứng nhu cầu đa dạng của người tiêu dùng, đặc biệt là giới trẻ. Bên cạnh các dòng sản phẩm truyền thống, thương hiệu sẽ tập trung vào việc tạo ra những sản phẩm mang tính thời trang, hiện đại và ứng dụng công nghệ mới. Không những vậy, giày Thượng Phong cũng sẽ tiếp tục đề cao tinh thần Việt, trân trọng những giá trị truyền thống của dân tộc, xây dựng thương hiệu dựa trên sự bền bỉ, uy tín và chất lượng, góp phần vào sự phát triển của ngành công nghiệp giày dép Việt Nam, trở thành thương hiệu giày Việt tốt nhất.</p></p>
     `,
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://www.brit.co/media-library/onitsuka-tiger-shoes.png?id=52999133&width=1200&height=600&coordinates=0%2C26%2C0%2C18",
         comments: [
             {
                 id: 1,
@@ -75,7 +75,7 @@ const blogPosts = [
 
         `,
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://assets.teenvogue.com/photos/673628a447a02a7dd6609c8f/16:9/w_2560%2Cc_limit/PATOU%2520ONITSUKA.jpg",
         comments: [
             {
                 id: 1,
@@ -157,7 +157,7 @@ const blogPosts = [
         
         `,
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://www.onitsukatiger.com/vn/vi-vn/mk/brand/onitsukatiger/assets/image/sub-4.jpg",
         comments: [
             {
                 id: 1,
@@ -222,7 +222,7 @@ const blogPosts = [
         <br>
         `,
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://images.preview.ph/preview/resize/images/2023/12/27/onitsuka-tiger-sneakers-1703662680.webp",
         comments: [
             {
                 id: 1,
@@ -304,7 +304,7 @@ const blogPosts = [
         <p>Hãy trải nghiệm ngay để tự mình “đánh giá giày” Thượng Phong và cảm nhận sự khác biệt. Nếu bạn đang tìm kiếm một đôi giày thoải mái, bền đẹp và dễ phối đồ, đừng ngần ngại ghé thăm cửa hàng hoặc website chính thức của Thượng Phong. Chắc chắn, đây sẽ là khoản đầu tư xứng đáng cho phong cách và cuộc sống hàng ngày của bạn!</p>
         `,
         image:
-            "https://myluxurybargain.com/wp-content/uploads/2024/09/Luxury-Handbags-to-Elevate-Your-Casual-Outfits.jpg",
+            "https://jordan1.vn/wp-content/uploads/2023/09/image_2023-05-22_231609282_d2fd62d9ec2b4140afcc4cbba72ad876_1024x1024.png",
         comments: [
             {
                 id: 1,
@@ -370,7 +370,7 @@ export default function BlogDetail() {
                         <div className="my-12 grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div>
                                 <img
-                                    src="https://demo.agnidesigns.com/bagberry/wp-content/uploads/2023/02/product-thumbnail-114-799x1024.jpeg"
+                                    src="https://images.asics.com/is/image/asics/1183A201_304_SB_Z2_GLB?$product$"
                                     alt="Model with yellow suit and blue handbag"
                                     width={400}
                                     height={400}
@@ -379,7 +379,7 @@ export default function BlogDetail() {
                             </div>
                             <div>
                                 <img
-                                    src="https://demo.agnidesigns.com/bagberry/wp-content/uploads/2023/02/product-thumbnail-113-1199x1536.jpeg"
+                                    src="https://cdn.storims.com/api/v2/image/resize?path=https://storage.googleapis.com/storims_cdn/storims/uploads/5148d6f48a7d84a22d53810ebd2b8959.jpeg&format=jpeg"
                                     alt="Yellow handbag closeup"
                                     width={400}
                                     height={400}
@@ -392,13 +392,13 @@ export default function BlogDetail() {
                         <div className="my-12 relative right-0">
                             <div className="aspect-[3/1] relative">
                                 <img
-                                    src="https://demo.agnidesigns.com/bagberry/wp-content/uploads/2023/02/about-collection-1-2048x915.jpeg"
+                                    src="https://cdn.readthecloud.co/wp-content/uploads/2021/05/29165110/doitung-onitsuka-tiger-share.jpg"
                                     alt="Timeless and reliable bags"
                                     fill
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <h2 className="text-3xl font-light text-white">Timeless & reliable bags.</h2>
+                                    <h2 className="text-3xl font-light text-white bg-black/50 p-6">Timeless & reliable bags.</h2>
                                 </div>
                             </div>
                         </div>
