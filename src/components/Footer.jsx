@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="mt-4 flex gap-20">
               <div>
                 <h4 className="font-medium mb-2">Email</h4>
-                <p className="text-gray-600 mb-1">Giaythuongphong@gmail.com</p>
+                <p className="text-gray-600 mb-1">giaythuongphong@gmail.com</p>
                 <p className="text-gray-600">0868255205</p>
               </div>
               <div>
