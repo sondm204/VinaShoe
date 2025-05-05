@@ -12,15 +12,15 @@ const Footer = () => {
             <div className="border-b border-b-gray-300">
               <h3 className="text-xl mb-4 font-serif font-semibold">Thượng Phong</h3>
               <p className="text-gray-600 mb-4">
-                Bộ sưu tập túi xách vượt thời gian của chúng tôi có thể sử dụng hàng ngày và thỉnh thoảng với giá cả phải chăng.
+                Bộ sưu tập giày vượt thời gian của chúng tôi có thể sử dụng hàng ngày và thỉnh thoảng với giá cả phải chăng.
               </p>
             </div>
 
             <div className="mt-4 flex gap-20">
               <div>
                 <h4 className="font-medium mb-2">Email</h4>
-                <p className="text-gray-600 mb-1">yourmail@gmail.com</p>
-                <p className="text-gray-600">+1234567890</p>
+                <p className="text-gray-600 mb-1">Giaythuongphong@gmail.com</p>
+                <p className="text-gray-600">0868255205</p>
               </div>
               <div>
                 <h4 className="font-medium mb-4">Theo dõi</h4>
