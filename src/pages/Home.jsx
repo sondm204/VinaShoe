@@ -71,9 +71,9 @@ const Home = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white font-sans">
           <div className="w-[50%] flex flex-col items-center">
-            <h1 className="text-5xl md:text-6xl font-light mb-6">Our timeless shoe collections</h1>
-            <p className="text-lg max-w-xl mb-10">
-              Designed for the way you live your life. ThuongPhong are beautiful in their simplicity.
+            <h1 className="text-5xl md:text-6xl font-light mb-6">New collections</h1>
+            <p className="text-5xl max-w-xl mb-10 font-serif font-bold">
+              Vina Street
             </p>
             <Button to="/shop" size="lg" type="primary">
               Đến cửa hàng
